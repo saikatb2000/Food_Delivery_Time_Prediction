@@ -1,5 +1,5 @@
 # Delivery Time Prediction
-![Delivery Time Prediction APP](image/APPImage.gif "a title")
+![Delivery Time Prediction APP](image/APPImage.gif "APP_Image")
 
 ## Introduction
 This machine learning project predicts delivery times.  It uses distance, weather, traffic, time of day, vehicle type, and preparation time as inputs. The output is the predicted delivery time.
