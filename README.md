@@ -14,15 +14,19 @@ The dataset contains information about delivery orders.  It includes the order I
 ## EDA
 ### Data Preprocessing
 - Identify the null values.
+
 ![Null Values](image.png)
 
 - Replace null values with statistical values.
+
 ![Replace Values](image-1.png) 
 
 - Find Outliers.
+
 ![Outliers](image-3.png)
 
 - Drop Outliers.
+
 ![Drop Outliers](image-4.png)
 
 ### Analysis
