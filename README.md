@@ -135,6 +135,7 @@ model.fit(final_X_train, y_train)
 ```
 - `fit_intercept=True`: Ensures the model includes an intercept term.
 - `copy_X=True`: Avoids modifying the original dataset during training.
+
 ![alt text](image-14.png)
 
 ### 2. Decision Tree Regressor
@@ -151,6 +152,8 @@ model2 = DecisionTreeRegressor(
 )  
 model2.fit(final_X_train, y_train)  
 ```
+![image](https://github.com/user-attachments/assets/685c8d51-ea6d-4573-8bcc-c7bbe4808135)
+
 - `criterion='absolute_error'`: Uses Mean Absolute Error (MAE) to measure splits.
 - `splitter='random'`: Splits nodes randomly to introduce variability.
 - `random_state=42`: Ensures reproducibility.
