@@ -36,6 +36,7 @@ Plot 1:
 - The graph reveals varying frequencies across different distances.
 - Peaks and valleys suggest clusters or groupings in the data.
 - The distribution is irregular and not normally distributed.
+  
 ![alt text](image-5.png)
 
 Plot 2:
@@ -44,6 +45,7 @@ Plot 2:
 - However, the data is scattered, indicating other influencing factors.
 - Outliers suggest unusual circumstances affecting specific deliveries.
 - The trend line visualizes the general direction of the relationship.
+  
 ![alt text](image-6.png)
 
 Plot 3:
@@ -52,10 +54,12 @@ Plot 3:
 - The line inside the box indicates the median delivery time for that preparation time group.
 - Whiskers extend to the minimum and maximum values within 1.5 times the IQR from the box.
 - Points outside the whiskers are outliers, representing unusually high or low delivery times.
+  
 ![alt text](image-7.png)
 
 ## Train_Test_Split
 - The dataset was split into training and testing sets using an 80/20 ratio.
+  
 ![alt text](image-9.png)
 
 - Save into four separate CSV files.
@@ -64,10 +68,12 @@ Plot 3:
 
 ## Feature Engineering
 - Reads training data and target variables from CSV files into pandas DataFrames, likely for machine learning.  Feature engineering could be applied after this step to X_train to potentially improve model performance by creating new, relevant features from the existing ones.
+
 ![alt text](image-8.png)
 
 - Feature Engineering:
    - Speed (km/m) is computed using:
+  
    ![alt text](image-12.png)
 
 - Feature Transformation:
@@ -79,6 +85,7 @@ Plot 3:
 - Dropping Unnecessary Columns:
 
 The following columns are removed:
+
 ![alt text](image-13.png)
 
 - Apply Transformations: The ColumnTransformer applies the necessary transformations, returning a processed dataset.
