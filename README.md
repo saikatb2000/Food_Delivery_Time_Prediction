@@ -111,7 +111,8 @@ def drop_column(df):
 ```
 - Data Transformation Pipeline
 
-``` def apply_transformer(sample):
+```
+def apply_transformer(sample):
     transformer = ColumnTransformer(
         transformers=[
             ('numerical', StandardScaler(), ['Distance_km', 'Preparation_Time_min', 'Speed_[km/m]']),
@@ -210,7 +211,8 @@ X_train = pd.read_csv('X_train', index_col=0)
     - Home Page (/): Renders the input form.
     - Prediction Page (/predict): Processes the input data, applies transformations, makes a prediction, and displays the estimated delivery time.
 
-```@app.route('/')
+```
+@app.route('/')
 def home():
     return render_template('index.html')
 
