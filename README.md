@@ -134,8 +134,8 @@ def apply_transformer(sample):
         'Vehicle_Type_Bike', 'Vehicle_Type_Car', 'Vehicle_Type_Scooter'
     ])
     return drop_column(new_sample_df) 
-
 ```
+
 ## Model Selection and Model Building
 ### 1. Linear Regression
 Linear Regression is chosen as a baseline model to understand the relationship between input features and the target variable. It assumes a linear relationship between independent and dependent variables.
@@ -146,6 +146,7 @@ from sklearn.linear_model import LinearRegression
 model = LinearRegression(fit_intercept=True, copy_X=True)  
 model.fit(final_X_train, y_train)  
 ```
+
 - `fit_intercept=True`: Ensures the model includes an intercept term.
 - `copy_X=True`: Avoids modifying the original dataset during training.
 
@@ -153,6 +154,7 @@ model.fit(final_X_train, y_train)
 
 ### 2. Decision Tree Regressor
 A Decision Tree Regressor is implemented to handle non-linear relationships and capture complex patterns in the data.
+
 ```
 from sklearn.tree import DecisionTreeRegressor  
 
