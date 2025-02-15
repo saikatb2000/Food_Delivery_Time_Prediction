@@ -286,4 +286,4 @@ The **Delivery Time Prediction App** successfully integrates machine learning wi
 
 This project demonstrates how **machine learning and Flask can be combined** to create practical, real-world applications that enhance decision-making in delivery logistics. 🚀
 
-**Video Link**: *https://www.linkedin.com/posts/saikat-bhattacharjee-data-analyst-trainee_machinelearning-fooddelivery-datascience-activity-7295490794994470914-gkDY?utm_source=share&utm_medium=member_android&rcm=ACoAAC03tr8BzJcETmwgAdzLb34j8V8TTzTcoG8* 
+[Video Link](https://www.linkedin.com/posts/saikat-bhattacharjee-data-analyst-trainee_machinelearning-fooddelivery-datascience-activity-7295490794994470914-gkDY?utm_source=share&utm_medium=member_android&rcm=ACoAAC03tr8BzJcETmwgAdzLb34j8V8TTzTcoG8)
